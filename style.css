@@ -4,31 +4,31 @@
   --primary-color: hsl(213, 94%, 14%);
   --primary-foreground: hsl(0, 0%, 100%);
   --primary-glow: hsl(213, 94%, 24%);
-  
+
   --secondary-color: hsl(213, 27%, 96%);
   --secondary-foreground: hsl(213, 94%, 14%);
-  
+
   --accent-color: hsl(213, 94%, 68%);
   --accent-foreground: hsl(0, 0%, 100%);
-  
+
   --background: hsl(0, 0%, 100%);
   --foreground: hsl(213, 27%, 84%);
-  
+
   --muted: hsl(213, 27%, 96%);
   --muted-foreground: hsl(213, 10%, 46%);
-  
+
   --border: hsl(213, 27%, 91%);
-  
+
   /* Professional Gradients */
   --gradient-primary: linear-gradient(135deg, var(--primary-color), var(--primary-glow));
   --gradient-hero: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-glow) 100%);
   --gradient-card: linear-gradient(145deg, var(--background) 0%, var(--secondary-color) 100%);
-  
+
   /* Professional Shadows */
   --shadow-elegant: 0 10px 30px -10px hsl(213, 94%, 14%, 0.1);
   --shadow-card: 0 4px 20px -4px hsl(213, 94%, 14%, 0.08);
   --shadow-glow: 0 0 40px hsl(213, 94%, 68%, 0.15);
-  
+
   /* Animation Timing */
   --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -53,10 +53,16 @@ body {
 }
 
 /* Typography */
-.touch-in{
+.touch-in {
   color: white !important;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Playfair Display', Georgia, serif;
   font-weight: 600;
   line-height: 1.2;
@@ -98,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-primary:hover {
   transform: translateY(-2px);
- box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   color: var(--primary-foreground);
 }
 
@@ -254,7 +260,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .timeline-content:hover {
   transform: translateY(-5px);
- box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .timeline-content h4 {
@@ -302,7 +308,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .skill-category:hover {
   transform: translateY(-5px);
- box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .skill-tags {
@@ -345,30 +351,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .certification-badge {
-    color: #000000;
-    background: hsl(0deg 0% 100%);
-    padding: 1rem;
-    border-radius: 8px;
-    text-align: center;
-    transition: var(--transition-smooth);
-    border: 1px solid hsl(0deg 0% 0%);
-   /* box-shadow: var(--shadow-elegant); */
+  color: #000000;
+  background: hsl(0deg 0% 100%);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: var(--transition-smooth);
+  border: 1px solid hsl(0deg 0% 0%);
+  /* box-shadow: var(--shadow-elegant); */
 
 }
 
 .certification-badge:hover {
   background: var(--primary-color);
   color: var(--primary-foreground);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
 
 .certification-badge i {
   display: block;
   margin-bottom: 0.5rem;
-  
-  
-  
+
+
+
 }
 
 /* Contact Section */
@@ -394,9 +400,10 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   text-decoration: underline;
 }
+
 .bg-dark {
-    --bs-bg-opacity: 1;
-    background-color: rgb(69 108 148 / 77%) !important;
+  --bs-bg-opacity: 1;
+  background-color: rgb(69 108 148 / 77%) !important;
 }
 
 /* Utility Classes */
@@ -451,6 +458,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -466,31 +474,31 @@ h1, h2, h3, h4, h5, h6 {
   .hero-title {
     font-size: 2.5rem;
   }
-  
+
   .hero-subtitle {
     font-size: 1.25rem;
   }
-  
+
   .section-title {
     font-size: 2rem;
   }
-  
+
   .timeline::before {
     left: 15px;
   }
-  
+
   .timeline-item {
     padding-left: 50px;
   }
-  
+
   .timeline-dot {
     left: 5px;
   }
-  
+
   .hero-image {
     margin-top: 2rem;
   }
-  
+
   .hero-image img {
     width: 250px;
     height: 250px;
@@ -500,7 +508,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Hero Section Background & Animation === */
 .hero-section {
-  background: linear-gradient(135deg, #e0f7fa, #ffffff); /* Light cyan to white */
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+  /* Light cyan to white */
   animation: fadeIn 1.5s ease-in-out both;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -512,6 +521,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -522,18 +532,55 @@ h1, h2, h3, h4, h5, h6 {
 .hero-title {
   animation: slideInLeft 1s ease-out both;
 }
+
 .hero-subtitle {
   animation: slideInLeft 1.2s ease-out both;
 }
+
 .hero-description {
   animation: slideInLeft 1.4s ease-out both;
 }
+
 .hero-buttons {
   animation: fadeInUp 1.6s ease-out both;
 }
+
 .hero-image {
   animation: fadeInScale 1.8s ease-out both;
 }
+
+.hero-buttons {
+  animation: fadeInUp 1.6s ease-out both;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  gap: 1rem;
+  /* spacing between buttons */
+}
+
+/* Button style (optional for size increase) */
+.hero-buttons .btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+/* Mobile-specific styling */
+@media (max-width: 576px) {
+  .hero-buttons {
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 1.2rem;
+    /* increase gap between buttons on small screens */
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+    /* full width button on mobile */
+    font-size: 1.1rem;
+    /* slightly larger text */
+  }
+}
+
 
 /* Slide from left */
 @keyframes slideInLeft {
@@ -541,6 +588,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0;
     transform: translateX(-50px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -553,6 +601,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -565,6 +614,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0;
     transform: scale(0.9);
   }
+
   to {
     opacity: 1;
     transform: scale(1);
@@ -577,6 +627,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0;
     transform: translateY(30px);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);
@@ -588,7 +639,8 @@ h1, h2, h3, h4, h5, h6 {
 /* animated-text */
 /* animated-text with colorful caret and text color cycle */
 #animated-text {
-  border-right: 2px solid #00bcd4; /* cyan caret */
+  border-right: 2px solid #00bcd4;
+  /* cyan caret */
   white-space: nowrap;
   overflow: hidden;
   display: inline-block;
@@ -605,3 +657,20 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+.card img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+  .card-body .btn {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+}
